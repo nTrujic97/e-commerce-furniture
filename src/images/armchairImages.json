@@ -1,0 +1,164 @@
+[
+	{
+		"id": 1,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1654859709247-8U6MNWMNV0Z1VPWU5AQ7/DSC_0212ja.jpg?format=1000w",
+		"title": "BELLADONNA",
+		"description": "Belladonna says the most about the kind of quality family or business you belong to and the kind of lifestyle you embrace. Made entirely 100% by hand signifying that all things worth waiting for are in fact in the end glorified through perseverance and courage.",
+		"techInfo": [
+			{
+				"_": "Internal frame: Wood and steel profiles"
+			},
+			{
+				"_": "Back internal frame: Wood, flexible cold shaped polyurethane foam, polyester fiber"
+			},
+			{
+				"_": "Seat cushion: Shaped polyurethane of different density, polyester fiber"
+			},
+			{
+				"_": "Size: 135 cm W x 105 cm D x 72 cm H"
+			}
+		],
+		"price": "1000"
+	},
+	{
+		"id": 2,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1656594606055-E5SEE1NJIVMVWO455WQ3/DSC_0237aj.jpg?format=1000w",
+		"title": "LION",
+		"description": "Lion's gentle and beautiful design is reminiscent of a flower's petal. Like flowers, the arms expand and bend outwards. A delicate yet clearly defined ensemble is made up of simple geometrical shapes.",
+		"techInfo": [
+			{
+				"_": "Structure: fiberglass, resin structure"
+			},
+			{
+				"_": "Seat cushion: shaped polyurethane of different density, polyester fiber"
+			},
+			{
+				"_": "Upholstery: fabric or leather"
+			},
+			{
+				"_": "Size: 82cm W x 80cm D x 82cm H"
+			}
+		],
+		"price": "700"
+	},
+	{
+		"id": 3,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1654077595896-QC4ZSAKT278EPHACRZG8/_Q7A0490.jpg?format=1000w",
+		"title": "HILTON",
+		"description": "Hilton is a transitional design, both elegant and cultured in appearance. Hilton’s beauty lies in its curves, and in its ability to accent modern and traditional ambiances, truly a timeless design that can co-exist in both your day and night spaces.",
+		"techInfo": [
+			{
+				"_": "Structure: Solid wood, veneered multilayered wood panel"
+			},
+			{
+				"_": "Back and armrest internal frame: Flexible cold shaped polyurethane foam, polyester fiber"
+			},
+			{
+				"_": "Cover: Fabric or Leather"
+			},
+			{
+				"_": "Size: 100cm W x 95cm D x 95cm H"
+			}
+		],
+		"price": "500"
+	},
+	{
+		"id": 4,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1645515580697-TCF7J6H5TWRF37NPKUT1/Cover%252B.jpg?format=1000w",
+		"title": "PARKER",
+		"description": "Parker is a subtle armchair that places importance on comfort in the modern world. It is highlighted by the exposed wood frame that make up its unified legs and arms. It is best seen in commercial settings like Hotel lobbies or as the accent chair in hotel rooms with a transitional décor package.",
+		"techInfo": [
+			{
+				"_": "Structure: Wood"
+			},
+			{
+				"_": "Upholstery: Fabric or Leather"
+			},
+			{
+				"_": "Exposed Wood Finish: Lacquered | Painted | Semi-Gloss or Matte"
+			},
+			{
+				"_": "Size: 80cm W x 75cm D x 92cm H"
+			}
+		],
+		"price": "600"
+	},
+	{
+		"id": 5,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1596644022442-5CMVTB0MYVHPZL1P8GMU/OK.png?format=1000w",
+		"title": "UFO",
+		"description": "The U.F.O. is a work of art designed by Mavimatt and exclusively manufactured by Able. It is an art piece for the residential or commercial setting. It offers practicality and function as a glorified rocking chair. Elevate your space by customizing your own U.F.O. chassis to compliment your luxury vehicle, yacht, or jet, as this masterpiece is made to order and always one-of-a-kind.",
+		"techInfo": [
+			{
+				"_": "Collection: Luxury - Fabric Choices and Leather Choices"
+			},
+			{
+				"_": "Size: 170 cm Dia. x 96 cm H"
+			}
+		],
+		"price": "1000"
+	},
+	{
+		"id": 6,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1661767772132-XUKXGKVAHUB26088HQQZ/DSC_0010%2Bcopy%2B22.jpg?format=1000w",
+		"title": "HAZEL ARMCHAIR",
+		"description": "Because of its regulated proportions, the Hazel Armchair gives the sense of immense comfort while remaining gently discreet. On the one hand, the lovely soft fabric and the addition of feathers contribute to the sofa's great comfort.",
+		"techInfo": [
+			{
+				"_": "Structure: Multilayered wood panel with flexible polyurethane foam"
+			},
+			{
+				"_": "Seat cushion: Shaped polyurethane of different density, polyester fiber"
+			},
+			{
+				"_": "Upholstery: Fabric or leather"
+			},
+			{
+				"_": "Size: 115cm W x 100cm D x 80 cm H"
+			}
+		],
+		"price": "900"
+	},
+	{
+		"id": 7,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1645453410947-HELMFQINIMV61KZWQGMV/_Q7A5933.jpg?format=1000w",
+		"title": "DONNA",
+		"description": "An inspiring design portraying the elegance of the female form. Long, elegant arms, legs and heels were the inspiration behind Donna.",
+		"techInfo": [
+			{
+				"_": "Structure: Multilayered wood panel with flexible polyurethane foam"
+			},
+			{
+				"_": "Seat cushion: Shaped polyurethane of different density, polyester fiber"
+			},
+			{
+				"_": "Upholstery: Fabric or Leather"
+			},
+			{
+				"_": "Size: 74cm W x 110cm D x 80cm H"
+			}
+		],
+		"price": "500"
+	},
+	{
+		"id": 8,
+		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1645453709159-3QO8KQC6TXE3GMPPE0VC/_Q7A6123.jpg?format=1000w",
+		"title": "IRIS",
+		"description": "Iris offers conventional typologies of armchair, sofa, and sectional. The armchair model is made without edges, offering round corners and a curved base to support the body with maximum seat and back comfort.",
+		"techInfo": [
+			{
+				"_": "Structure: Multilayered wood panel with flexible polyurethane foam"
+			},
+			{
+				"_": "Seat cushion: Shaped polyurethane of different density, polyester fiber"
+			},
+			{
+				"_": "Upholstery: Fabric or Leather"
+			},
+			{
+				"_": "Size: 80cm W x 80cm D x 85cm H"
+			}
+		],
+		"price": "500"
+	}
+]
