@@ -7,9 +7,14 @@ import { Cart } from "./Shop/Cart";
 import { useDispatch } from "react-redux";
 import { productActions } from "../store/product-slice";
 import armchairsData from "../images/armchairImages.json";
+import { useGetTodosQuery } from "../store/todoSlice/todoAPISlice";
 
 export const Home = () => {
 	const dispatch = useDispatch();
+
+	// Example
+	// useGetTodosQuery();
+
 	return (
 		<>
 			<Stack className={styles.background}>

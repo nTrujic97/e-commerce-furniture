@@ -1,9 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
-import data from "../images/armchairImages.json";
 
 const cartSlice = createSlice({
 	name: "products",
-	initialState: { cartProducts: [] },
+	initialState: { cartProducts: [], isItTrue: false },
 	reducers: {
 		addToCart(state, action) {
 			state.cartProducts = action.payload;
