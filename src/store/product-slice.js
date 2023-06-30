@@ -1,9 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
-import data from "../images/armchairImages.json";
+import { armchairsAPISlice } from "./armchairsSlice/armchairsAPISlice";
+
+const initialState = {
+	currentProducts: [],
+	currentProductsName: "",
+	tabsValue: "",
+	singleProductData: {},
+};
 
 const productSlice = createSlice({
 	name: "products",
-	initialState: { currentProducts: data, currentProductsName: "" },
+	initialState,
 	reducers: {
 		onSelectProduct(state, action) {
 			state.currentProducts = action.payload;
@@ -11,12 +18,21 @@ const productSlice = createSlice({
 		onCurrentProductsName(state, action) {
 			state.currentProductsName = action.payload;
 		},
-		// onLogout(state) {
-		// 	state.isAuthenticated = !state.token;
-		// },
-		// getUserId(state, action) {
-		// 	state.userId = action.payload;
-		// },
+		onChangeTabsValue(state, action) {
+			state.tabsValue = action.payload;
+		},
+
+		setSingleProductData(state, action) {
+			state.singleProductData = action.payload;
+		},
+	},
+	extraReducers(builder) {
+		builder.addMatcher(
+			armchairsAPISlice.endpoints.getArmchairs.matchFulfilled,
+			(state, action) => {
+				state.currentProducts = action.payload.data;
+			}
+		);
 	},
 });
 

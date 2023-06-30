@@ -13,53 +13,55 @@ export const ProductTabs = () => {
 	const currentProductsName = useSelector(
 		(state) => state.product.currentProductsName
 	);
-	const [value, setValue] = useState(currentProductsName);
+	// const [value, setValue] = useState(currentProductsName);
+	const value = useSelector((state) => state.product.tabsValue);
 	const dispatch = useDispatch();
 	const handleChange = (event, newValue) => {
-		setValue(newValue);
+		// setValue(newValue);
+		dispatch(productActions.onChangeTabsValue(newValue));
 		dispatch(productActions.onCurrentProductsName(newValue));
 	};
 
 	return (
 		<Box sx={{ width: "100%" }}>
-			<Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+			<Box
+				sx={{
+					borderBottom: 1,
+					borderColor: "divider",
+					// width: "25%",
+				}}
+			>
 				<Tabs
-					textColor="blue"
 					value={value}
 					onChange={handleChange}
 					aria-label="Product tabs"
 					TabIndicatorProps={{
-						style: { backgroundColor: "black" },
-					}}
-					sx={{
-						".Mui-selected": {
-							color: "primary.dark",
-						},
+						style: { backgroundColor: "#000000" },
 					}}
 				>
 					<Tab
-						label="Armchairs"
+						label={<span style={{ color: "black" }}>Armchairs</span>}
 						value={"Armchairs"}
 						onClick={() => {
 							dispatch(productActions.onSelectProduct(armchairsData));
 						}}
 					/>
 					<Tab
-						label="Sofas"
+						label={<span style={{ color: "black" }}>Sofas</span>}
 						value={"Sofas"}
 						onClick={() => {
 							dispatch(productActions.onSelectProduct(sofasData));
 						}}
 					/>
 					<Tab
-						label="Beds"
+						label={<span style={{ color: "black" }}>Beds</span>}
 						value={"Beds"}
 						onClick={() => {
 							dispatch(productActions.onSelectProduct(bedsData));
 						}}
 					/>
 					<Tab
-						label="Poufs"
+						label={<span style={{ color: "black" }}>Poufs</span>}
 						value={"Poufs"}
 						onClick={() => {
 							dispatch(productActions.onSelectProduct(poufsData));

@@ -8,19 +8,31 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { ShopItemModal } from "./ShopItemModal";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { ProductTabs } from "./ProductTabs";
+import { useGetArmchairsQuery } from "../../store/armchairsSlice/armchairsAPISlice";
+import { productActions } from "../../store/product-slice";
 
 export const Shop = () => {
-	const currentProducts = useSelector((state) => state.product.currentProducts);
+	const { currentProducts } = useSelector((state) => state.product);
 	const currentProductsName = useSelector(
 		(state) => state.product.currentProductsName
 	);
+	const singleProductData = useSelector(
+		(state) => state.product.singleProductData
+	);
+	const dispatch = useDispatch();
+
+	// console.log(currentProducts);
+
+	const { data } = useGetArmchairsQuery();
+	console.log(data);
 
 	const [open, setOpen] = useState(false);
 	const [productData, setProductData] = useState({});
 	const handleOpen = () => setOpen(true);
 	const handleClose = () => setOpen(false);
+
 	return (
 		<>
 			<Typography
@@ -35,21 +47,23 @@ export const Shop = () => {
 				<ShopItemModal
 					handleClose={handleClose}
 					open={open}
-					productData={productData}
+					productData={singleProductData}
 				/>
 			)}
 			<Grid container>
-				{currentProducts.map((item) => (
-					<>
+				{currentProducts.length > 0 &&
+					currentProducts.map((item, i) => (
 						<Card
 							onClick={() => {
-								setProductData({
-									image: item.image,
-									title: item.title,
-									description: item.description,
-									techInfo: item.techInfo,
-									price: item.price,
-								});
+								dispatch(
+									productActions.setSingleProductData({
+										image: item.image,
+										title: item.title,
+										description: item.description,
+										techInfo: item.techInfo,
+										price: item.price,
+									})
+								);
 								handleOpen();
 							}}
 							sx={{
@@ -57,7 +71,7 @@ export const Shop = () => {
 								margin: 3,
 								":hover": { opacity: 0.8, boxShadow: 20 },
 							}}
-							key={item.id}
+							key={i}
 							item={item}
 						>
 							<CardActionArea>
@@ -85,8 +99,7 @@ export const Shop = () => {
 								</CardContent>
 							</CardActionArea>
 						</Card>
-					</>
-				))}
+					))}
 			</Grid>
 		</>
 	);

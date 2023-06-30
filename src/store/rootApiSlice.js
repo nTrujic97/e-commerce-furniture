@@ -5,7 +5,7 @@ const apiSlice = createApi({
 	reducerPath: "api",
 	endpoints: () => ({}),
 	baseQuery: fetchBaseQuery({
-		baseUrl: "https://jsonplaceholder.typicode.com",
+		baseUrl: "http://localhost:3006/api",
 		prepareHeaders: (headers) => {
 			headers.append("Content-Type", "application/json");
 			return headers;

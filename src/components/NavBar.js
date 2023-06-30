@@ -142,6 +142,7 @@ export const NavBar = () => {
 								onClick={() => {
 									dispatch(productActions.onSelectProduct(armchairsData));
 									dispatch(productActions.onCurrentProductsName("Armchairs"));
+									dispatch(productActions.onChangeTabsValue("Armchairs"));
 								}}
 							>
 								<Typography fontSize={20}>Armchairs</Typography>
@@ -156,6 +157,7 @@ export const NavBar = () => {
 								onClick={() => {
 									dispatch(productActions.onSelectProduct(sofasData));
 									dispatch(productActions.onCurrentProductsName("Sofas"));
+									dispatch(productActions.onChangeTabsValue("Sofas"));
 								}}
 							>
 								<Typography fontSize={20}>Sofas</Typography>
@@ -170,6 +172,7 @@ export const NavBar = () => {
 								onClick={() => {
 									dispatch(productActions.onSelectProduct(bedsData));
 									dispatch(productActions.onCurrentProductsName("Beds"));
+									dispatch(productActions.onChangeTabsValue("Beds"));
 								}}
 							>
 								<Typography fontSize={20}>Beds</Typography>
@@ -184,6 +187,7 @@ export const NavBar = () => {
 								onClick={() => {
 									dispatch(productActions.onSelectProduct(poufsData));
 									dispatch(productActions.onCurrentProductsName("Poufs"));
+									dispatch(productActions.onChangeTabsValue("Poufs"));
 								}}
 							>
 								<Typography fontSize={20}>Poufs</Typography>

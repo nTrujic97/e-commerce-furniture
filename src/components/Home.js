@@ -52,6 +52,7 @@ export const Home = () => {
 							onClick={() => {
 								dispatch(productActions.onCurrentProductsName("Armchairs"));
 								dispatch(productActions.onSelectProduct(armchairsData));
+								dispatch(productActions.onChangeTabsValue("Armchairs"));
 							}}
 						>
 							SHOP UP TO 20% OFF

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import {
 	Modal,
 	Card,
@@ -9,12 +8,33 @@ import {
 	Typography,
 	CardContent,
 	CardActionArea,
+	IconButton,
+	Grid,
 } from "@mui/material";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import CloseIcon from "@mui/icons-material/Close";
+import { productActions } from "../../store/product-slice";
+import { cartActions } from "../../store/cart-slice";
+import { useState } from "react";
+import { ShopItemModal } from "./ShopItemModal";
+import { CartBadge } from "./CartBadge";
 
 export const Cart = (props) => {
-	const cartData = useSelector((state) => state.cart.cartProducts);
+	const cartProducts = useSelector((state) => state.cart.cartProducts);
 	const handleClose = () => props.setOpen(false);
+	const [open, setOpen] = useState(false);
+	const handleProductOpen = () => setOpen(true);
+	const handleProductClose = () => setOpen(false);
+	// const existingCartItem = cartProducts.find((item) => item.image === cartImage);
+	// if (existingCartItem) {
+	// }
+
+	// console.log(cartProducts);
+
+	const singleProductData = useSelector(
+		(state) => state.product.singleProductData
+	);
+
 	const style = {
 		position: "absolute",
 		top: "50%",
@@ -23,23 +43,29 @@ export const Cart = (props) => {
 		width: "70%",
 		height: "80%",
 		bgcolor: "background.paper",
-		// border: "1px solid #000",
 		boxShadow: 24,
 		p: 4,
-		// display: "flex",
-		// justifyContent: "center",
 		backgroundColor: "#ececec",
+		overflow: "scroll",
+		overflowX: "hidden",
 	};
+
+	let totalPrice = 0;
+	cartProducts.forEach((product) => {
+		totalPrice = totalPrice + +product.price * product.quantity;
+	});
+
+	const dispatch = useDispatch();
 
 	return (
 		<>
-			{/* <Button
-				variant="contained"
-				sx={{ color: "red" }}
-				onClick={() => setOpen(true)}
-			>
-				dsdsd{" "}
-			</Button> */}
+			{open && (
+				<ShopItemModal
+					handleClose={handleProductClose}
+					open={open}
+					productData={singleProductData}
+				/>
+			)}
 			<Modal
 				aria-labelledby="transition-modal-title"
 				aria-describedby="transition-modal-description"
@@ -54,55 +80,108 @@ export const Cart = (props) => {
 				}}
 			>
 				<Fade in={props.open}>
-					{/* {cartData.map((item) => {
-						<Card sx={style}>ajao</Card>;
-					})} */}
-					<Card sx={style}>
-						<Typography
-							sx={{ display: "flex", justifyContent: "center" }}
-							gutterBottom
-							variant="h3"
-						>
-							My Cart
-						</Typography>
-						<Card sx={{ width: "20%", height: "45%" }}>
+					<Card
+						sx={style}
+						onClick={() => {
+							if (cartProducts.length === 0) handleClose();
+						}}
+					>
+						<Box display="flex" justifyContent="flex-end">
+							<IconButton onClick={handleClose}>
+								<CloseIcon sx={{ ":hover": { color: "error.main" } }} />
+							</IconButton>
+						</Box>
+						{cartProducts.length !== 0 && (
 							<Typography
-								sx={{
-									display: "flex",
-									justifyContent: "center",
-									fontSize: 20,
-									fontStyle: "italic",
-								}}
+								sx={{ display: "flex", justifyContent: "center" }}
+								gutterBottom
+								variant="h3"
 							>
-								Zmaj
+								My Cart
 							</Typography>
-							<CardActionArea sx={{ borderBottom: 1, borderColor: "divider" }}>
-								<img
-									src="https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1656594606055-E5SEE1NJIVMVWO455WQ3/DSC_0237aj.jpg?format=1000w"
-									width="100%"
-									height="100%"
-									loading="lazy"
-									alt="product"
-								/>
-							</CardActionArea>
-							<CardContent>
-								<Box display="flex">
-									<Button sx={{ color: "black", fontSize: 12 }}>Remove</Button>
-									<Button sx={{ color: "black", fontSize: 12 }}>
-										View product
-									</Button>
-								</Box>
-								<Typography
-									sx={{
-										display: "flex",
-										justifyContent: "start",
-										fontSize: 20,
-									}}
-								>
-									Price : 1000 €
-								</Typography>
-							</CardContent>
-						</Card>
+						)}
+
+						{cartProducts.length === 0 && (
+							<Typography marginTop={20} align="center" variant="h3">
+								Your cart is empty.
+							</Typography>
+						)}
+						<Grid container>
+							{cartProducts.map((product, i) => (
+								<Card key={i} sx={{ width: "20%", height: "45%", m: 3 }}>
+									<Typography
+										sx={{
+											display: "flex",
+											justifyContent: "center",
+											fontSize: 20,
+											fontStyle: "italic",
+										}}
+									>
+										{product.title}
+									</Typography>
+									<CardActionArea
+										disabled
+										sx={{ borderBottom: 1, borderColor: "divider" }}
+									>
+										<img
+											src={product.image}
+											width="100%"
+											height="100%"
+											loading="lazy"
+											alt="product"
+										/>
+									</CardActionArea>
+									<CardContent>
+										<Box display="flex">
+											<Button
+												onClick={() => {
+													dispatch(cartActions.onRemoveProduct(product));
+												}}
+												sx={{ color: "black", fontSize: 12 }}
+											>
+												Remove
+											</Button>
+											<Button
+												sx={{ color: "black", fontSize: 12 }}
+												onClick={() => {
+													dispatch(
+														productActions.setSingleProductData({
+															title: product.title,
+															image: product.image,
+															description: product.description,
+															techInfo: product.techInfo,
+															price: product.price,
+														})
+													);
+													handleProductOpen();
+												}}
+											>
+												View product
+											</Button>
+										</Box>
+
+										<Typography
+											gutterBottom
+											sx={{
+												display: "flex",
+												justifyContent: "start",
+												fontSize: 20,
+											}}
+										>
+											Price : {Number(product.price).toLocaleString()} €
+										</Typography>
+										{product.quantity > 1 && (
+											<CartBadge quantity={product.quantity} />
+										)}
+									</CardContent>
+								</Card>
+							))}
+						</Grid>
+						{cartProducts.length !== 0 && (
+							<Typography p={5} fontSize={26}>
+								Total Price : {totalPrice.toLocaleString()} €
+							</Typography>
+						)}
 					</Card>
 				</Fade>
 			</Modal>

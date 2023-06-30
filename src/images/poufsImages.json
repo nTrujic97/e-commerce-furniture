@@ -5,158 +5,91 @@
 		"title": "GIANNA",
 		"description": "Enjoy your Gianna Bench in your home as an accent seat or compliment to your office or lobby. Gianna says the most about the kind of quality family or business you belong to and the kind of lifestyle you embrace.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel upper, with wood or metal lower base"
-			},
-			{
-				"_": "Cushion: Shaped polyurethane of different density, polyester fiber"
-			},
-			{
-				"_": "Upholstery: Fabric or Leather"
-			},
-			{
-				"_": "Size: 158cm W x 85cm L x 46cm H"
-			}
+			"Structure: Multilayered wood panel upper, with wood or metal lower base",
+			"Cushion: Shaped polyurethane of different density, polyester fiber",
+			"Upholstery: Fabric or Leather",
+			"Size: 158cm W x 85cm L x 46cm H"
 		],
 		"price": "800"
 	},
 	{
-		"id": 2,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1641811661072-ABBIE1M8Q0KARC2EH1KR/vs_cester%2Bpouf%2Bgianna%2Bjjjjjj.jpg?format=1000w",
 		"title": "MAXIME",
 		"description": "Maxime embraces the sense of sophistication through its fully tufted workmanship, vintage and iconic nature. It simply brings tradition to your spaces in addition to a pleasant seat when needed.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel upper, with wood or metal lower base"
-			},
-			{
-				"_": "Cushion: Shaped polyurethane of different density, polyester fiber"
-			},
-			{
-				"_": "Upholstery: Fabric or Leather"
-			},
-			{
-				"_": "Size: 200cm W x 100cm L x 40cm H"
-			}
+			"Structure: Multilayered wood panel upper, with wood or metal lower base",
+			"Cushion: Shaped polyurethane of different density, polyester fiber",
+			"Upholstery: Fabric or Leather",
+			"Size: 200cm W x 100cm L x 40cm H"
 		],
 		"price": "750"
 	},
 	{
-		"id": 3,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1660123291964-WXLP88OQRRFXZV07ES29/DSC_0085%2Bcopyj.jpg?format=1000w",
 		"title": "MANUEL",
 		"description": "Manuel has a clear contrast between the roughness of wood and the soft comfort of upholstery, emphasizing a pleasant, recognized form that defines its own shape. This product is ideal for usage in the bedroom, living room, and commercial free areas.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel with flexible polyurethane foam"
-			},
-			{
-				"_": "Cushion: Shaped polyurethane of different density, polyester fiber"
-			},
-
-			{
-				"_": "Size: 150cm W x 45cm L x 38cm H"
-			}
+			"Structure: Multilayered wood panel with flexible polyurethane foam",
+			"Cushion: Shaped polyurethane of different density, polyester fiber",
+			"Size: 150cm W x 45cm L x 38cm H"
 		],
 		"price": "500"
 	},
 	{
-		"id": 4,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1674736953630-V5U977RNFX0O8NZ92NT6/DSC_0105.jpg?format=1000w",
 		"title": "PHUKET",
 		"description": "Phuket brings together a world of contrasts: limber but robust, this series combines a light, sleek aluminium frame with the warmth of a handmade leather straps. Phuket carefully blends old and new to offer this item a distinct personality.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel with flexible polyurethane foam"
-			},
-			{
-				"_": "Cushion: Shaped polyurethane of different density, polyester fiber"
-			},
-
-			{
-				"_": "Size: 138cm W x 42cm L x 44cm H"
-			}
+			"Structure: Multilayered wood panel with flexible polyurethane foam",
+			"Cushion: Shaped polyurethane of different density, polyester fiber",
+			"Size: 138cm W x 42cm L x 44cm H"
 		],
 		"price": "600"
 	},
 	{
-		"id": 5,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1593589545341-7VR8MCWR8RNLDYVUF0XX/_Q7A6597.png?format=1000w",
 		"title": "CHESTER",
 		"description": "Contemporary yet uncannily ageless. The Chester ottoman embraces the sense of sophistication they exude from its fully tufted workmanship, vintage and iconic nature. It simply brings tradition to your spaces in addition to a pleasant seat when needed.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel upper, with wood or metal lower base"
-			},
-			{
-				"_": "Cushion: Shaped polyurethane of different density, polyester fiber"
-			},
-			{
-				"_": "Upholstery: Fabric or Leather"
-			},
-			{
-				"_": "Size: 152cm W x 77cm L x 40cm H"
-			}
+			"Structure: Multilayered wood panel upper, with wood or metal lower base",
+			"Cushion: Shaped polyurethane of different density, polyester fiber",
+			"Upholstery: Fabric or Leather",
+			"Size: 152cm W x 77cm L x 40cm H"
 		],
 		"price": "550"
 	},
 	{
-		"id": 6,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1593526716659-IPTFONTGIV4BTEU79W7B/_Q7A6561.png?format=1000w",
 		"title": "CHANEL",
 		"description": "Chanel is a very elegant designer ottoman. Used as a centerpiece in your walk-in closet or wardrobe, it offers the pleasantly firm seat you need to rest on as you decide your next outfit, or can be utilized in the living room as a complimentary accent piece to your setting.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel upper, with wood or metal lower base"
-			},
-			{
-				"_": "Cushion: Shaped polyurethane of different density, polyester fiber"
-			},
-			{
-				"_": "Upholstery: Fabric or Leather"
-			},
-			{
-				"_": "Size: 175cm W x 80cm L x 46cm H"
-			}
+			"Structure: Multilayered wood panel upper, with wood or metal lower base",
+			"Cushion: Shaped polyurethane of different density, polyester fiber",
+			"Upholstery: Fabric or Leather",
+			"Size: 175cm W x 80cm L x 46cm H"
 		],
 		"price": "500"
 	},
 	{
-		"id": 7,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1593550935705-023NQR84NP40W5SCSK68/_Q7A6236.png?format=1000w",
 		"title": "PERLA",
 		"description": "Perla is a coffee table and ottoman mixed into one product. It simultaneously offers a creative seat at the table, and also can hold drinks with the addition of an optional tray.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel upper, with wood or metal lower base"
-			},
-			{
-				"_": "Cushion: Shaped polyurethane of different density, polyester fiber"
-			},
-			{
-				"_": "Upholstery: Fabric or Leather"
-			},
-			{
-				"_": "Size: 120cm Dia. x 45cm H"
-			}
+			"Structure: Multilayered wood panel upper, with wood or metal lower base",
+			"Cushion: Shaped polyurethane of different density, polyester fiber",
+			"Upholstery: Fabric or Leather",
+			"Size: 120cm Dia. x 45cm H"
 		],
 		"price": "500"
 	},
 	{
-		"id": 8,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1676564687944-AODUJBSNZTNHMUD5OXH8/DSC_0018%2Bcopyja2.jpg?format=1000w",
 		"title": "ENID",
 		"description": "Enid has an ultra-precise, contemporary, minimal style, rooted in interior modernism.‎ Its uniqueness stands in its diverse range of configuration.",
 		"techInfo": [
-			{
-				"_": "Structure: Multilayered wood panel upper, with wood or metal lower base"
-			},
-			{
-				"_": "First Triangle Size: 160cm W x 80cm L x 37cm H"
-			},
-			{
-				"_": "Second Triangle Size: 140cm W x 70cm L x 37cm H"
-			}
+			"Structure: Multilayered wood panel upper, with wood or metal lower base",
+			"First Tringle Size: 160cm W x 80cm L x 37cm H",
+			"Second Triangle Size: 140cm W x 70cm L x 37cm H"
 		],
 		"price": "550"
 	}

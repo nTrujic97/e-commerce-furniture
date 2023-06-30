@@ -1,103 +1,95 @@
 [
 	{
-		"id": 1,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1646749372309-046K3N7S178IN5Q4MWWD/VIP%2BSALOTI_SORELLINA%2BBED.jpg?format=1000w",
 		"title": "SORELLINA",
 		"description": "The Sorellina Bed is a masterpiece and a showcase of the synergy of multiple departments creating a work of art. Its headboard takes inspiration from a rose, a symbol of intimacy, love, and balance. Architectural metal legs give an edge to the design and compliment the thin profile of the platform base. Everything about it just makes us fall in love with its shapes, curves, custom stitching detail and most importantly, its blossoming design, representative of springtime flowers bloom.",
 		"techInfo": [
-			{ "_": "Queen Headboard : 214cm W x 110cm H" },
-			{ "_": "Queen Platform Size : 214cm W x 225cm D x 29cm H" },
-			{ "_": "Supports Queen Mattress: 180cm W x 200cm D" },
-			{ "_": "Base Structure: Metal" }
+			"Queen Headboard : 214cm W x 110cm H",
+			"Queen Platform Size : 214cm W x 225cm D x 29cm H",
+			"Supports Queen Mattress: 180cm W x 200cm D",
+			"Base Structure: Metal"
 		],
 		"price": "2000"
 	},
 	{
-		"id": 2,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1663248020496-XQ06GH0M0UV57OI4PEME/DSC_0091+copy.jpg?format=1000w",
 		"title": "DYNASTY",
 		"description": "Dynasty Bed: A bed with an attractive and refined design that plays with the concepts of harmony and balance. A robust and standout object. The headboard makes use of the combination of an emery leather component's design and the cushioning's softness. ",
 		"techInfo": [
-			{ "_": "Platform Size: 195cm W x 237cm D" },
-			{ "_": "Base Structure: Metal" },
-			{ "_": "Size: 210cm W x 185cm D x 115cm H" }
+			"Platform Size: 195cm W x 237cm D",
+			"Base Structure: Metal",
+			"Size: 210cm W x 185cm D x 115cm H"
 		],
 		"price": "2000"
 	},
 	{
-		"id": 3,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1625150211083-0JWYOOJM8Z3FAM29Z9K4/krevati%2Bjjjjjj.jpg?format=1000w",
 		"title": "HEMI",
 		"description": "Hemi is a bed that offers a touch of sophistication and elegance. It invites you to sleep as successful as you look and feel. A true incarnation of elegance and simplicity. Hemi’s is beauty and in its ability to accent modern and traditional ambiances, truly a timeless design.",
 		"techInfo": [
-			{ "_": "Structure: Solid wood" },
-			{ "_": "Cover: fabric or leather" },
-			{ "_": "Size: 230cm W x 190cm D x 113cm H" }
+			"Structure: Solid wood",
+			"Cover: fabric or leather",
+			"Size: 230cm W x 190cm D x 113cm H"
 		],
 		"price": "1700"
 	},
 	{
-		"id": 4,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1623425982386-OW9CBPEXXOM3T7614J0F/Annotation+2021-06-11+154622+copy.jpg?format=1000w",
 		"title": "ASHER",
 		"description": "Asher bed offers luxury in the bedroom with detailed tufting from all angles. Its curved headrest resembles the iconic chesterfield bolstered arm curve. Sleep in comfort while enjoying the finer luxuries of this bed.",
 		"techInfo": [
-			{ "_": "Structure: Solid wood" },
-			{ "_": "Cover: fabric or leather" },
-			{ "_": "Bed Size: 200cm W x 214 cm D x 28cm H" }
+			"Structure: Solid wood",
+			"Cover: fabric or leather",
+			"Bed Size: 200cm W x 214 cm D x 28cm H"
 		],
 		"price": "2300"
 	},
 	{
-		"id": 5,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1593512789373-3ZL501MGCSW8OSCTMEUL/Lusso+Plus+Bed+Cover.png?format=1000w",
 		"title": "LUSSO",
 		"description": "Lusso represents sleek and sophisticated lifestyles, fast-paced and exhilarating. It’s characterized by its practical and stylish horizontally tufted headboard, with optional built-in nightstands, and is level with the ground. It is convenient and comfortable for those that prefer a low bed and approachable for those living in city apartments given its low headboard doesn’t block views.",
 		"techInfo": [
-			{ "_": "Structure: Solid wood" },
-			{ "_": "Cover: Fabric or leather" },
-			{ "_": "Bed Size: 200cm W x 224 cm D x 32cm H" },
-			{ "_": "EU Mattress Size: 180cm W x 200cm D" }
+			"Structure: Solid wood",
+			"Cover: Fabric or leather",
+			"Bed Size: 200cm W x 224 cm D x 32cm H",
+			"EU Mattress Size: 180cm W x 200cm D"
 		],
 		"price": "1900"
 	},
 	{
-		"id": 6,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1677681080812-J6S5PW0Y1OBSRM45VP3U/_Q7A9967.jpg?format=1000w",
 		"title": "GORDON",
 		"description": "Gordon is a creation designed to make you feel like you are sleeping on art and to wake up feeling stylish and confident. Distinctive design combined with detailed statements make Gordon the ideal bed for those seeking exclusivity.",
 		"techInfo": [
-			{ "_": "Structure: Solid wood" },
-			{ "_": "Cover: fabric or leather" },
-			{ "_": "Size: 240cm W x 204cm D x 104cm H" },
-			{ "_": "Suited to fit an EU Mattress Size: 200cm W x 180cm D" }
+			"Structure: Solid wood",
+			"Cover: fabric or leather",
+			"Size: 240cm W x 204cm D x 104cm H",
+			"Suited to fit an EU Mattress Size: 200cm W x 180cm D"
 		],
 		"price": "2000"
 	},
 	{
-		"id": 7,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1593515951167-MCKIQZ6OJV4TON8KUMAV/Flow+Pillow+Bed+Cover.png?format=1000w",
 		"title": "FLOW",
 		"description": "Plush pillows highlight the Flow bed. Rest your back in comfort while reading a book at night. When not in use, the plush pillows ensure that your bed is always looking its best. The pillows can be removed should you wish with a zip function.",
 		"techInfo": [
-			{ "_": "Structure: Solid wood" },
-			{ "_": "Cover: fabric or leather" },
-			{ "_": "Headboard Size: 200cm W x 8cm D x 115cm H" },
-			{ "_": "Bed Size: 200cm W x 238cm D x 36cm H" },
-			{ "_": "EU Mattress Size: 180cm W x 200cm D" }
+			"Structure: Solid wood",
+			"Cover: fabric or leather",
+			"Headboard Size: 200cm W x 8cm D x 115cm H",
+			"Bed Size: 200cm W x 238cm D x 36cm H",
+			"EU Mattress Size: 180cm W x 200cm D"
 		],
 		"price": "1800"
 	},
 	{
-		"id": 8,
 		"image": "https://images.squarespace-cdn.com/content/v1/5b8b14650dbda3fc35edbdf7/1593515820952-XFNT9H5UFOKP01D7JB8J/Diamante+Whole+Bed+Cover.png?format=1000w",
 		"title": "DIAMANTE",
 		"description": "Diamante is a bed that spares no wall space with its enlarged headboard. A practical bed with a complimentary accent headboard that will complete your master bedroom space very nicely. As a complimentary option upon request, the headboard’s oval space is intentionally left for a personalized touch.",
 		"techInfo": [
-			{ "_": "Structure: Solid wood" },
-			{ "_": "Cover: fabric or leather" },
-			{ "_": "Bed Size: 200cm W x 218cm D x 36cm H" },
-			{ "_": "EU Mattress Size: 180cm W x 200cm D" }
+			"Structure: Solid wood",
+			"Cover: fabric or leather",
+			"Bed Size: 200cm W x 218cm D x 36cm H",
+			"EU Mattress Size: 180cm W x 200cm D"
 		],
 		"price": "2100"
 	}
